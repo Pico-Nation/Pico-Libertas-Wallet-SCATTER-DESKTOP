@@ -6,7 +6,7 @@ const Blockchains = {
 }
 
 const asn1 = require('asn1-ber');
-const ecc = require('picojs-ecc');
+const ecc = require('picojs-ec');
 const { Serialize, Api } = require('picojs');
 
 const EthTx = require('ethereumjs-tx')

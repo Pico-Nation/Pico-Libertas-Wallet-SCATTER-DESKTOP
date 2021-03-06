@@ -208,7 +208,7 @@
     aes-oop "^1.0.4"
     bignumber.js "^9.0.0"
     bip39 "^2.6.0"
-    picojs-ecc "^4.0.4"
+    picojs-ec "^4.0.4"
     qrcode "^1.4.1"
     scrypt-async "^2.0.1"
 
@@ -220,7 +220,7 @@
     aes-oop "^1.0.4"
     bignumber.js "^9.0.0"
     bip39 "^2.6.0"
-    picojs-ecc "^4.0.4"
+    picojs-ec "^4.0.4"
     qrcode "^1.4.1"
     scrypt-async "^2.0.1"
 
@@ -231,7 +231,7 @@
   dependencies:
     "@walletpack/core" "^1.0.47"
     picojs "^20.0.0"
-    picojs-ecc "^4.0.7"
+    picojs-ec "^4.0.7"
 
 "@walletpack/ethereum@^0.0.56":
   version "0.0.56"
@@ -1861,9 +1861,9 @@ env-paths@^2.2.0:
   resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.0.tgz#cdca557dc009152917d6166e2febe1f039685e43"
   integrity sha512-6u0VYSCo/OW6IoD5WCLLy9JUGARbamfSavcNXry/eu8aHVFei6CD3Sw+VGX5alea1i9pgPHW0mbu6Xj0uBh7gA==
 
-picojs-ecc@4.0.7, picojs-ecc@^4.0.4, picojs-ecc@^4.0.7:
+picojs-ec@4.0.7, picojs-ec@^4.0.4, picojs-ec@^4.0.7:
   version "4.0.7"
-  resolved "https://registry.yarnpkg.com/picojs-ecc/-/picojs-ecc-4.0.7.tgz#f5246da3b84839fcc237204768ef6e5ea56cc814"
+  resolved "https://registry.yarnpkg.com/picojs-ec/-/picojs-ec-4.0.7.tgz#f5246da3b84839fcc237204768ef6e5ea56cc814"
   integrity sha512-uuqhqnrDy9XTpKfkhiZqRDUTCCI9oWBalVK5IosL7kpYwA9I3lm68INYFLyWsHpF2xwHqPql8MrMYJ3zfOn5Qg==
   dependencies:
     "@babel/runtime" "7.6.0"
@@ -1882,7 +1882,7 @@ picojs@^20.0.0:
   integrity sha512-h0WSxsDo7AHz5IzpbQDrzyT/CYmbBDtFiiolTdtGd2FdKXEa6LDER4WbNp4qxCY7kD65KeG3knkGmOOFGbPJxw==
   dependencies:
     babel-runtime "6.26.0"
-    picojs-ecc "4.0.7"
+    picojs-ec "4.0.7"
     text-encoding "0.7.0"
 
 errno@~0.1.1:

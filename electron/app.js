@@ -8,7 +8,7 @@ const NotificationService = require('./services/notifier');
 const HighLevelSockets = require('./services/sockets');
 const prompt = require('./services/prompt');
 
-const ecc = require('picojs-ecc');
+const ecc = require('picojs-ec');
 
 const Embedder = require('embedder');
 const files = require('./services/files');

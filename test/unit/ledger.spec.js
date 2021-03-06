@@ -1,7 +1,7 @@
 const {assert} = require('chai');
 require('electron-mocha');
 require("babel-polyfill");
-const ecc = require('picojs-ecc');
+const ecc = require('picojs-ec');
 const Signature = require('elliptic/lib/elliptic/ec/signature');
 const LedgerWallet = require("../../electron/hardware/LedgerWallet");
 

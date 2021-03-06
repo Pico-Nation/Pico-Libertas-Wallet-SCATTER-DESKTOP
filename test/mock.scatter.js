@@ -1,4 +1,4 @@
-const ecc = require('picojs-ecc');
+const ecc = require('picojs-ec');
 
 module.exports = async () => {
 	return new Promise(async resolve => {

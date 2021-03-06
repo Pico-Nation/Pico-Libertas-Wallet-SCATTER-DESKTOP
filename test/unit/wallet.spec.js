@@ -11,7 +11,7 @@ const wallet = require('../../electron/services/wallet');
 wallet.setStorage(storage);
 wallet.init();
 
-const ecc = require('picojs-ecc');
+const ecc = require('picojs-ec');
 const Signature = require('elliptic/lib/elliptic/ec/signature');
 
 

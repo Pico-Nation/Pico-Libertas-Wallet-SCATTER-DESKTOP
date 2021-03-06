@@ -20,7 +20,7 @@
     "@ledgerhq/hw-transport-node-hid": "^4.78.0",
     "@walletpack/bitcoin": "^1.0.51",
     "@walletpack/core": "^1.0.46",
-    "@walletpack/picoio": "^0.0.58",
+    "@walletpack/picoio": "file:/walletpack/packages/picoio",
     "@walletpack/ethereum": "^0.0.56",
     "@walletpack/fio": "^0.0.23",
     "@walletpack/tron": "^0.0.59",
@@ -32,9 +32,12 @@
     "dotenv": "^8.1.0",
     "electron-store": "^3.2.0",
     "elliptic": "^6.5.1",
-    "embedder": "git+https://git@github.com/GetScatter/Scatter-Embedder.git#master",
-    "picojs": "^20.0.0",
-    "picojs-ecc": "^4.0.7",
+	
+    "embedder": "file:/ScatterEmbed",
+    "picojs": "file:/picojs",
+    "picojs-ec": "file:/picojs-ec",
+	
+	
     "ethereumjs-tx": "^2.1.0",
     "isomorphic-fetch": "^2.2.1",
     "mini-css-extract-plugin": "^0.8.0",
@@ -60,7 +63,7 @@
     "**/lodash": "^4.13.1",
     "**/mixin-deep": "^2.0.1",
     "**/set-value": "^3.0.1",
-    "**/picojs-ecc": "4.0.7"
+    "**/picojs-ec": "4.0.7"
   },
   "browserslist": [
     "> 1%",
